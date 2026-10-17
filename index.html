@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusKart - Experiment 5</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-indigo-50 text-slate-900">
+
+  <nav class="bg-indigo-950 text-white px-4 py-3
+              flex items-center justify-between">
+
+    <h2 class="font-bold text-lg">
+      Campus<span class="text-yellow-400">Kart</span>
+    </h2>
+
+    <div class="flex items-center gap-5 text-sm">
+      <a href="#" class="hover:text-yellow-400">Shop</a>
+      <a href="#products" class="hover:text-yellow-400">Cart (0)</a>
+    </div>
+
+  </nav>
+
+
+  <section class="bg-gradient-to-r from-violet-600 to-indigo-600
+                  text-white px-6 py-8 md:py-10">
+
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row
+                items-center justify-between gap-6">
+
+      <div class="text-center md:text-left">
+        <h1 class="text-3xl md:text-4xl font-bold">
+          College Sale
+        </h1>
+
+        <p class="text-sm mt-2">
+          Up to 50% off on bags, books and more
+        </p>
+
+        <a href="#products"
+           class="inline-block bg-yellow-400 text-indigo-950
+                  text-sm font-bold px-4 py-2 rounded mt-4
+                  hover:bg-yellow-300">
+          Shop Now
+        </a>
+      </div>
+
+      <div class="bg-yellow-400 text-indigo-950 rounded-lg
+                  w-36 h-32 md:w-40 md:h-32
+                  flex items-center justify-center shrink-0">
+
+        <h2 class="text-xl font-bold">50% OFF</h2>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="max-w-6xl mx-auto px-3 pt-4">
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+
+      <div class="bg-white border border-indigo-100 rounded-md
+                  shadow-sm text-center py-3">
+        <h3 class="text-violet-600 font-bold text-sm">Free</h3>
+        <p class="text-slate-500 text-xs">Delivery</p>
+      </div>
+
+      <div class="bg-white border border-indigo-100 rounded-md
+                  shadow-sm text-center py-3">
+        <h3 class="text-violet-600 font-bold text-sm">7-Day</h3>
+        <p class="text-slate-500 text-xs">Returns</p>
+      </div>
+
+      <div class="bg-white border border-indigo-100 rounded-md
+                  shadow-sm text-center py-3">
+        <h3 class="text-violet-600 font-bold text-sm">COD</h3>
+        <p class="text-slate-500 text-xs">Available</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="products" class="max-w-6xl mx-auto p-3">
+
+    <div class="grid grid-cols-1 sm:grid-cols-2
+                lg:grid-cols-4 gap-3">
+
+      
+      <div class="bg-white p-2 rounded-lg shadow-sm">
+        <div class="bg-indigo-100 rounded h-24
+                    flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=400&q=80"
+               alt="Backpack" class="w-full h-full object-cover rounded">
+        </div>
+        <h3 class="font-bold text-xs mt-2">Backpack</h3>
+        <p class="text-xs font-bold mt-1">Rs. 799
+          <del class="text-slate-400 font-normal">Rs. 999</del>
+        </p>
+        <button class="w-full bg-violet-600 hover:bg-indigo-800
+                       text-white text-xs font-bold rounded
+                       py-2 mt-2">
+          Add to Cart
+        </button>
+      </div>
+
+      
+      <div class="bg-white p-2 rounded-lg shadow-sm">
+        <div class="bg-indigo-100 rounded h-24
+                    flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=400&q=80"
+               alt="Notebook set" class="w-full h-full object-cover rounded">
+        </div>
+        <h3 class="font-bold text-xs mt-2">Notebook Set</h3>
+        <p class="text-xs font-bold mt-1">Rs. 199
+          <del class="text-slate-400 font-normal">Rs. 299</del>
+        </p>
+        <button class="w-full bg-violet-600 hover:bg-indigo-800
+                       text-white text-xs font-bold rounded
+                       py-2 mt-2">
+          Add to Cart
+        </button>
+      </div>
+
+      
+      <div class="bg-white p-2 rounded-lg shadow-sm">
+        <div class="bg-indigo-100 rounded h-24
+                    flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=400&q=80"
+               alt="Water bottle" class="w-full h-full object-cover rounded">
+        </div>
+        <h3 class="font-bold text-xs mt-2">Water Bottle</h3>
+        <p class="text-xs font-bold mt-1">Rs. 349
+          <del class="text-slate-400 font-normal">Rs. 499</del>
+        </p>
+        <button class="w-full bg-violet-600 hover:bg-indigo-800
+                       text-white text-xs font-bold rounded
+                       py-2 mt-2">
+          Add to Cart
+        </button>
+      </div>
+
+
+      <div class="bg-white p-2 rounded-lg shadow-sm">
+        <div class="bg-indigo-100 rounded h-24
+                    flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80"
+               alt="Earphones" class="w-full h-full object-cover rounded">
+        </div>
+        <h3 class="font-bold text-xs mt-2">Earphones</h3>
+        <p class="text-xs font-bold mt-1">Rs. 599
+          <del class="text-slate-400 font-normal">Rs. 899</del>
+        </p>
+        <button class="w-full bg-violet-600 hover:bg-indigo-800
+                       text-white text-xs font-bold rounded
+                       py-2 mt-2">
+          Add to Cart
+        </button>
+      </div>
+
+      
+      <div class="bg-white p-2 rounded-lg shadow-sm">
+        <div class="bg-indigo-100 rounded h-24
+                    flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80"
+               alt="Sports shoes" class="w-full h-full object-cover rounded">
+        </div>
+        <h3 class="font-bold text-xs mt-2">Sports Shoes</h3>
+        <p class="text-xs font-bold mt-1">Rs. 1499
+          <del class="text-slate-400 font-normal">Rs. 1999</del>
+        </p>
+        <button class="w-full bg-violet-600 hover:bg-indigo-800
+                       text-white text-xs font-bold rounded
+                       py-2 mt-2">
+          Add to Cart
+        </button>
+      </div>
+
+      
+
+      
+      <div class="bg-white p-2 rounded-lg shadow-sm">
+        <div class="bg-indigo-100 rounded h-24
+                    flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=400&q=80"
+               alt="Digital camera" class="w-full h-full object-cover rounded">
+        </div>
+        <h3 class="font-bold text-xs mt-2">Digital Camera</h3>
+        <p class="text-xs font-bold mt-1">Rs. 4999
+          <del class="text-slate-400 font-normal">Rs. 5999</del>
+        </p>
+        <button class="w-full bg-violet-600 hover:bg-indigo-800
+                       text-white text-xs font-bold rounded
+                       py-2 mt-2">
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-indigo-950 text-white text-center py-4">
+
+    <p class="text-xs">© 2026 CampusKart</p>
+
+    <div class="flex justify-center gap-4 mt-2 text-xs">
+      <a href="#" class="hover:text-yellow-400">About</a>
+      <a href="#" class="hover:text-yellow-400">Contact</a>
+    </div>
+
+  </footer>
+
+</body>
+</html>
